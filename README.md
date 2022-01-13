@@ -4,9 +4,9 @@ METORY - The real-world feasibility of a blockchain-based dynamic consent platfo
 
 
 
-### Installation 
+## Installation 
 
-환경 
+###환경 
 
 ```
 nodejs - v14.18.0
@@ -15,7 +15,7 @@ npm - v6.14.15
 
 
 
-라이브러리 패키지 설치
+###라이브러리 패키지 설치
 
 ```
 npm install 
@@ -23,7 +23,7 @@ npm install
 
 
 
-설정파일 
+###설정파일 
 
 ```bash
 #Wallt 정보 
