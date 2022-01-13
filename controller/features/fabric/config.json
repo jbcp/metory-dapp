@@ -1,0 +1,14 @@
+{
+    "channel_name": "channel_name",
+    "smart_contract_name": "chaincode_name",
+    "connection_file": "profile_name.json",
+    "appAdmin": "appAdmin_username",
+    "appAdminSecret": "appAdmin_password",
+    "orgMSPID": "msp_id",
+    "caName": "ca ip adress",
+    "peerName": "peer ip address",
+    "gatewayDiscovery": {
+        "enabled": true,
+        "asLocalhost": false
+    }
+}

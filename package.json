@@ -1,0 +1,38 @@
+{
+  "name": "crcp_api",
+  "version": "0.0.1",
+  "description": "CRCP Blockchain network API",
+  "main": "app.js",
+  "scripts": {
+    "start": "nodemon app",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "nodemonConfig": {
+    "ignore": [
+      "uploads/*"
+    ]
+  },
+  "author": "JBCP",
+  "license": "ISC",
+  "dependencies": {
+    "body-parser": "^1.19.0",
+    "canvas": "^2.8.0",
+    "cookie-parser": "^1.4.5",
+    "cors": "^2.8.5",
+    "date-format": "^3.0.0",
+    "dotenv": "^8.2.0",
+    "ejs": "^3.1.2",
+    "express": "^4.17.1",
+    "express-session": "^1.17.1",
+    "fabric-ca-client": "^1.4.8",
+    "fabric-network": "^1.4.8",
+    "http": "0.0.1-security",
+    "mkdirp": "^1.0.4",
+    "morgan": "^1.10.0",
+    "multer": "^1.4.2",
+    "nodemon": "^2.0.3",
+    "path": "^0.12.7",
+    "request": "^2.88.2",
+    "wesocket": "^1.0.9"
+  }
+}
